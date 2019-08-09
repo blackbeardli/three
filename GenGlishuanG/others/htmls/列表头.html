@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+    *{ 
+        padding: 0%;
+        margin:0% }
+    h1{text-align: center;}
+    .main{width: 800px;height: 600px;}
+    .backgroud{background-image: url("./Screenshots/car1.jpg");
+        /* display: "block"; */}
+
+    ul{
+        list-style: none;
+    }
+    li{
+        /* float: left;  */
+        width: 25%; 
+        height: 80px; 
+        text-align: center; 
+        line-height: 80px; 
+        cursor:pointer;
+        }
+    .indexAere{
+        position: relative;
+        float: left;
+        width: 216px;
+        height: 444px;
+        z-index: 2;
+        padding-top: 12px;
+        box-sizing: border-box;
+        background: #2b333b;
+        border-bottom-left-radius: 4px;
+        font-weight: 400;}
+
+    </style>
+</head>
+<body>
+    <h1>示例动态列表头</h1>
+    <div id="main">
+        <div id="indexAere">
+            <div>
+                <ul id="lis">
+                <li><a>首页</a>></li>
+                <li><a>第二页</a>></li>
+                <li><a>第三页</a>></li>
+                <li><a>第四页</a>></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="bunner" >
+            <div id="">
+                
+            </div>
+            <img src="./Screenshots/car1.jpg" alt="几何a新能源" width=1200px height=600px />
+            <!-- <div class="backgroud" width=1200px height=600px ></div> -->
+        </div>
+    </div>
+
+</body>
+</html>

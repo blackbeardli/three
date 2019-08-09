@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!-- getAttbibute -->
+<p title="qqqq">sss</p>
+<p title="rrrr">aaaa</p>
+<p>wwwww</p>
+<button onclick="ss()">dianji</button>
+<script type="text/javascript">
+var list=document.getElementsByTagName('p');
+function ss(){
+for(var i=0;i<list.length;i++)
+	{
+       //alert(list[i].getAttribute("title"));
+           list[i].innerHTML=list[i].getAttribute("title");
+	}
+};
+
+</script>
+</body>
+</html>
