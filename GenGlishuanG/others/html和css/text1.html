@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Demo</title>
+        <style>
+            a.test{
+                font-weight: bolder;
+            }
+        
+        </style>
+
+    </head>
+<body>
+    <a href="#">jquery</a>
+    <script src="jquery.js"></script>
+    <script>
+        //Your code goes here.
+        $(document).ready(function(){
+            $('a').click(function(event){
+                alert("001!");
+            });
+        });
+        $('a').addClass('test');
+        $('a').click(function(event){
+            event.prevertDefault();
+            $(this).hide('slow');
+        });
+
+        $.get('test.html',function(){
+            myCallBack(param1,param2);
+        });
+
+        $('a').attr('href','allMyHrefattibute.html');
+        $('a').attr({href:"allMyHrefattribute.html",title:"somethingNew"});
+        $('a').attr('href');//Returns the href for the first a element.
+        //返回这个元素的hrefurl值
+                
+
+
+
+
+    </script>
+</body>
+</html>
+
