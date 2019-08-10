@@ -1,0 +1,21 @@
+.col-1-4 {
+  border: solid 1px red;
+  width: 25%;
+  text-align: center; }
+
+.col-2-4 {
+  border: solid 1px red;
+  width: 50%;
+  text-align: center; }
+
+.col-3-4 {
+  border: solid 1px red;
+  width: 75%;
+  text-align: center; }
+
+.col-4-4 {
+  border: solid 1px red;
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=jhj.css.map */
