@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1.html">
+  <component name="RunManager" selected="Node.js.1.js">
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -72,6 +72,8 @@
       <workItem from="1565250415682" duration="14105000" />
       <workItem from="1565312231353" duration="11216000" />
       <workItem from="1565366068928" duration="2000" />
+      <workItem from="1565402860276" duration="5146000" />
+      <workItem from="1565430181214" duration="9697000" />
     </task>
     <servers />
   </component>
