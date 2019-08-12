@@ -120,11 +120,12 @@
 //    a.html('test');
 
     // $('div').filter('.div3').html('test');
-        jQuery.fn.extend({
-            fn1:function(color){
-                this.css('')
-            }
-        })
+    //     jQuery.fn.extend({
+    //         fn1:function(color){
+    //             this.css('')
+    //         }
+    //     })
+
 
 
 
