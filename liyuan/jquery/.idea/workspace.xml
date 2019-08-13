@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,8 +44,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jqgetform.html">
+  <component name="RunManager" selected="JavaScript Debug.3.html">
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="each.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/each.html" useBuiltInWebServerPort="true">
@@ -59,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.3.html" />
         <item itemvalue="JavaScript Debug.jqgetform.html" />
         <item itemvalue="JavaScript Debug.each.html" />
         <item itemvalue="JavaScript Debug.1.html" />
@@ -85,6 +89,8 @@
       <workItem from="1565490895545" duration="1099000" />
       <workItem from="1565572709154" duration="17024000" />
       <workItem from="1565609093330" duration="3774000" />
+      <workItem from="1565624693691" duration="15000" />
+      <workItem from="1565660467183" duration="7512000" />
     </task>
     <servers />
   </component>
