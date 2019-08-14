@@ -1,0 +1,237 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    padding-top: 0px;
+    color:#444;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+    color:#43a047;}
+    a:hover, a:focus{
+        color:#347c37;}
+    a code{
+        color:#43a047;
+    }
+h1,h2,h3,h4,h5,h6 {
+    color:#444;
+    font-weight:200;
+    margin-top:30px;
+    margin-bottom: 15px;
+}
+div {
+    /* border:solid 1px; */
+
+}
+.navbar-nav a{
+    color:#fff;
+    /* padding-right: 30%; */
+}
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+    color:#444;
+    background:transparent;
+}
+.navbar-inverse{
+    background-color: #43a047;
+    border-bottom: 1px solid #43a047;
+    /* height: 28px; */
+}
+.navbar-logo{
+    height: 28px;
+}
+a.navbar-brand{
+    color:#fff;
+}
+a.navbar-brand:focus, a.navbar-brand:hover{
+    color:#444;
+    background-color: #76d275;
+}
+.navbar-nav,form.navbar-form{
+    /* border:solid 5px red; */
+    color:red;
+}
+ul.nav li{
+    color: seashell;
+    /* position: absolute;
+    top:100px;
+    right:100px;
+    font-weight: 50px; */
+    /* position: relative; */
+    /* border:solid  red; */
+    /* float: left; */
+    /* display: block; */
+}
+p,li{
+    position: relative;
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.img-responsive{
+    max-width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-collapse{
+    display: block!important;
+}
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;}
+}
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;}}
+
+@media (min-width: 768px){
+.navbar-nav>li {
+    display: block;
+    float: left;}}
+h2{
+    text-align: center;
+    padding-top: 6%;
+}
+@media (min-width: 768px){
+.col-sm-8 {
+    width: 66.66666667%;
+}}
+.col-sm-8 p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #757575;
+    line-height: 22px;
+}
+.col-sm-8 h1{
+    margin-top: 0;
+    font-size: 36px;
+    font-weight:200;
+    color:#777;
+    margin:.67em 0;
+    font-family: inherit;
+}
+.home .landing-section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #444;
+    font-weight: 400;
+    /* margin-top: 30px; */
+    margin-bottom: 15px;
+}
+.home .users .user-logo {
+    width: 150px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.home .users .user-logo.square {
+    width: 70px; }
+@media (max-width: 767px) {
+  .home .users blockquote .user-logo-container {
+    /* justify-content: center; } } */}
+
+
+.home .users .user-logo-container {
+    vertical-align: middle;
+    /* border:solid rgb(28, 1, 146) 3px; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}}
+
+img.user-logo{
+    margin: 0 auto;
+    /* background-color: red; */
+
+}
+.row .logos{
+    line-height:100px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 4%;
+}
+blockquote .user-logo-container{
+    position: relative;
+    bottom: 15%;
+}
+body > div > div.landing-section.users > div > div > div:nth-child(3) > div:nth-child(2) > blockquote > div{
+    padding-top: 4%;
+}
+body > div > div.landing-section.users > div > div > div:nth-child(3) > div:nth-child(3) > blockquote > div{
+    padding-top: 6%;
+}   
+.footer a{
+    color: #fff;
+} 
+.footer p{
+    color: #fff;
+
+}
+.footer{
+    background-color: #444;
+    padding-top: 2%;
+}
+.footer .col-lg-12{
+    color:#fff;
+
+}
+div.beta{
+    padding: 3%;
+}
+.users .container{
+    width:95%;
+}
+/* .container .navbar ul{
+    border:solid red;
+    display: inline; */
+/* } */
+#common-nav > div > ul:nth-child(2){
+    display: inline;
+    float: right;
+    /* margin: 4%; */
+}
+#common-nav > div > ul:nth-child(2) li{
+    margin: 5px;
+}
+#common-nav > div{
+height: 30px;
+}
+.landing-section.users{
+    background-color:#FAFAFA;
+}
+.landing-section.hero{
+    background-color:#FAFAFA;
+
+}
+#q{
+    position: relative;
+    top:8px;
+    background-color: #96f295;
+    line-height:0.5;
+    font-size:0.7rm
+}
+#q:focus{
+    background-color: #fff;
+
+}
+@media (max-width: 767px){
+body > div > div.landing-section.hero > div > div > div.col-sm-4.hidden-xs{
+    /* border:solid red ; */
+    display: none;
+}}
