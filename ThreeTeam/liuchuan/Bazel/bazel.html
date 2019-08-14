@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+<title>Bazel - 一种快速，可扩展，多语言和可扩展的构建系统“ - Bazel</title>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="main01.css">
+
+<head>
+    <meta charset="utf8">
+
+</head>
+
+<body class="body-home">
+    <nav id="common-nav" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <div class="navbar-header">
+                    <img src="bazel-navbar.svg" alt="navbar-logo" class="navbar-logo">
+                </div>
+            </a>
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a href="https://docs.bazel.build">Documentation</a>
+                    </li>
+                    <li>
+                      <a href="/contributing.html">Contribute</a>
+                    </li>
+                    <li>
+                      <a href="https://blog.bazel.build">
+                        <span class="hidden-sm">Blog</span>
+                        <span class="nav-icon visible-sm"><i class="fa fa-rss"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/bazelbuild">
+                        <span class="visible-xs">Twitter</span>
+                        <span><i class="nav-icon fa fa-twitter hidden-xs"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://stackoverflow.com/questions/tagged/bazel">
+                        <span class="visible-xs">StackOverflow</span>
+                        <span><i class="nav-icon fa fa-stack-overflow hidden-xs"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+            
+                    <form class="navbar-form navbar-right" action="/search.html" id="cse-search-box">
+                      <div class="form-group">
+                        <input type="hidden" name="cx" value="009927877080525621790:2pxlpaexqpc">
+                        <input type="hidden" name="cof" value="FORID:10">
+                        <input type="hidden" name="ie" value="UTF-8">
+                        <input type="search" name="q" id="q" class="form-control input-sm" placeholder="Search">
+                      </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                            <li>
+                              <a href="https://github.com/bazelbuild/bazel">
+                                <span class="hidden-sm">GitHub</span>
+                                <span class="nav-icon visible-sm"><i class="fa fa-github"></i></span>
+                              </a>
+                            </li>
+                          </ul>
+                    
+                  </div>
+
+        
+    </nav>
+    <div class="home">
+        <div class="landing-section hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p class="hero-taglin">{Fast, Correct} - Choose two</p>
+                        <h1 class="hero-title" id="build-and-test-software-of-any-size-quickly-and-reliably">Build and
+                            test software of any size, quickly and reliably</h1>
+                        <p class="cta-buttons">
+                            <a class="btn btn-lg" href="https://docs.bazel.build/install-ubuntu.html">
+                                Get Bazel
+                            </a>
+                            <a class="btn btn-success btn-lg cta-main"
+                                href="https://docs.bazel.build/getting-started.html">
+                                Get Started
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-sm-4 hidden-xs">
+                        <img src="bazel-icon.svg" alt="bazel-icon" class="logo img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="landing-section features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 id="why-bazel">Why Bazel?<a class="anchorjs-link " href="#why-bazel"
+                                aria-label="Anchor link for: why bazel" data-anchorjs-icon=""
+                                style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3 id="speed-up-your-builds-and-tests">Speed up your builds and tests<a class="anchorjs-link "
+                                href="#speed-up-your-builds-and-tests"
+                                aria-label="Anchor link for: speed up your builds and tests" data-anchorjs-icon=""
+                                style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a>
+                        </h3>
+                        <p>
+                            Bazel only rebuilds what is necessary.
+                            With advanced local and distributed caching, optimized dependency analysis and parallel
+                            execution, you get fast and incremental builds.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 id="one-tool-multiple-languages">One tool, multiple languages<a class="anchorjs-link "
+                                href="#one-tool-multiple-languages"
+                                aria-label="Anchor link for: one tool multiple languages" data-anchorjs-icon=""
+                                style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a>
+                        </h3>
+                        <p>Build and test Java, C++, Android, iOS, Go and a wide variety of other language platforms.
+                            Bazel runs on Windows, macOS, and Linux.
+                        </p>
+                    </div>
+                    <div class="clearfix visible-sm-block"></div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 id="scalable">Scalable<a class="anchorjs-link " href="#scalable"
+                                aria-label="Anchor link for: scalable" data-anchorjs-icon=""
+                                style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a>
+                        </h3>
+                        <p>
+                            Bazel helps you scale your organization, codebase and Continuous Integration system.
+                            It handles codebases of any size, in multiple repositories or a huge monorepo.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 id="extensible-to-your-needs">Extensible to your needs<a class="anchorjs-link "
+                                href="#extensible-to-your-needs" aria-label="Anchor link for: extensible to your needs"
+                                data-anchorjs-icon=""
+                                style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a>
+                        </h3>
+                        <p>
+                            Easily add support for new languages and platforms with Bazel's familiar extension language.
+                            Share and re-use language rules written by the growing Bazel community.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="landing-section users">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 id="trusted-by-industry-leaders">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">受到行业领导者的信赖</font>
+                            </font>
+                            <a class="anchorjs-link " href="#trusted-by-industry-leaders" aria-label="锚点链接：行业领导者信赖"
+                                data-anchorjs-icon=""
+                                style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;">
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="row logos">
+                        <div class="col-sm-6 col-md-2 user-logo-container">
+                            <img class="user-logo" src="./braintree.svg" alt="Braintree标志" title="Braintree，PayPal服务">
+                        </div>
+                        <div class="col-sm-6 col-md-2 user-logo-container">
+                            <img class="user-logo" src="./dropbox.svg" alt="Dropbox徽标" title="Dropbox的">
+                        </div>
+                        <div class="col-sm-6 col-md-2 user-logo-container">
+                            <img class="user-logo" src="./google.svg" alt="Google徽标" title="谷歌">
+                        </div>
+                        <div class="col-sm-6 col-md-2 user-logo-container">
+                            <img class="user-logo square" src="./huawei.png" alt="华为标志" title="华为">
+                        </div>
+                        <div class="col-sm-6 col-md-2 user-logo-container">
+                            <img class="user-logo" src="./stripe.svg" alt="条纹标志" title="条纹">
+                        </div>
+                        <div class="col-sm-6 col-md-2 user-logo-container">
+                            <img class="user-logo" src="./twosigma.svg" alt="两个西格玛标志" title="两西格玛">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <blockquote>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            Bazel是Pinterest中常见的构建工具，在我们的编程语言和平台上实现快速，可重现的构建方面发挥了重要作用。
+                                        </font>
+                                    </font>
+                                </p>
+                                <footer><cite>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Rahul Malik</font>
+                                        </font>
+                                    </cite>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">，软件工程师</font>
+                                    </font>
+                                </footer>
+                                <div class="user-logo-container">
+                                    <img class="user-logo square" src="./pinterest.svg" alt="Pinterest标志"
+                                        title="Pinterest的">
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <blockquote>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            Bazel在单个系统中为不同语言提供无缝且一致的构建界面。</font>
+                                        <font style="vertical-align: inherit;">它显着提高了我们的生产力 </font>
+                                        <font style="vertical-align: inherit;">我们喜欢它！
+                                        </font>
+                                    </font>
+                                </p>
+                                <footer><cite>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">毛茂松</font>
+                                        </font>
+                                    </cite>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">，工程经理</font>
+                                    </font>
+                                </footer>
+                                <div class="user-logo-container">
+                                    <img class="user-logo" src="./heron.svg" alt="苍鹭标志" title="鹭">
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <blockquote>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            通过切换到bazel，我们不仅消除了维护多个构建系统的开销，而且还大量加快了构建和测试基础架构的速度。</font>
+                                    </font>
+                                </p>
+                                <footer><cite>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Michal Witkowski</font>
+                                        </font>
+                                    </cite>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">，首席技术主管</font>
+                                    </font>
+                                </footer>
+                                <div class="user-logo-container">
+                                    <img class="user-logo" src="./improbable.svg" alt="不太可能的标志" title="Improbable.io">
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="beta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                            <b style="vertical-align: inherit;">Beta： </b>
+                            <font style="vertical-align: inherit;">
+                                当您使用Bazel构建软件时，您运行的代码经过多年的改进和测试，可用于构建重型，关键任务基础架构，服务和应用程序。但是，Bazel尚未涵盖弃用策略，可能会受到向后不兼容的更改，并且缺少某些功能。因此，Bazel以'Beta'发布。请参阅
+                            </font><a href="/">产品路线图</a>
+                            <font style="vertical-align: inherit;">，了解稳定1.0版本的发展方向。</font>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-2">
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">关于</font>
+                            </font>
+                        </p>
+                        <ul class="list-unstyled">
+                            <li><a href="https://github.com/bazelbuild/bazel/wiki/Bazel-Users">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">谁在使用Bazel？</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="/roadmap.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">路线图</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="/contributing.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">有助于</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="/governance.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">治理计划</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="https://policies.google.com/privacy">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">隐私政策</font>
+                                    </font>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">支持</font>
+                            </font>
+                        </p>
+                        <ul class="list-unstyled">
+                            <li><a href="http://stackoverflow.com/questions/tagged/bazel">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">堆栈溢出</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="https://github.com/bazelbuild/bazel/issues">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">问题跟踪器</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="https://docs.bazel.build">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">文档</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="/faq.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">常问问题</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="/support.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">支持政策</font>
+                                    </font>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-2">
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">保持联系</font>
+                            </font>
+                        </p>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/bazelbuild">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">推特</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="https://blog.bazel.build">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">博客</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="https://github.com/bazelbuild/bazel">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">GitHub上</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="https://groups.google.com/forum/#!forum/bazel-discuss">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">讨论组</font>
+                                    </font>
+                                </a></li>
+                            <li><a href="https://slack.bazel.build">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">松弛</font>
+                                    </font>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="text-muted"></p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">©2019 Google</font>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script></script>
+    <footer class="footer"></footer>
+    <script></script>
+</body>
+
+
+</html>
