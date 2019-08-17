@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置全局ajax默认选项</title>
+    <script src="./jquery-3.4.1.js"></script>
+</head>
+<body>
+     <div id="div1">
+         <div class="title">
+             <span class="s1">加载一段文字</span>
+             <span class="s2">
+                 <input id="btn1" type="button" value="加载1"/>
+                 <input id="btn2" type="button" value="加载2"/>
+             </span>
+         </div>
+         <ul></ul>
+     </div>
+     <script>
+         $(function(){
+            $.ajaxSetup({
+                dataType:"text",
+                success:function(data){
+
+                    // $("ul").empty().append(data);
+                    $("ul").html(data);
+
+
+                }
+            });
+            $("#btn1").on("click",function(){
+               $.ajax({url:"ajaxsetup1.html"});
+            });
+            $("#btn2").on("click",function(){
+                $.ajax({url:"ajaxsetup2.html"});
+            })
+         });
+     </script>
+</body>
+</html>
