@@ -25,11 +25,11 @@ $(function () {
     //选择 javascript
     //          var a =$('#para-1').html();
     //          alert(a);
+    //选取所有
+    //           $('[class^="color-"]').html(
     //选择erlang
     //                var a =  $('.color-red.color-green').html();
-    //                alert(a);
-    //选取所有
-    //           $('[class^="color-"]').html('test');
+    //                alert(a);'test');
     //         $('input[name=name]').html('test');
     //    $('.lang-javascript').html('test');
     // $('ul.lang li').html('test');
