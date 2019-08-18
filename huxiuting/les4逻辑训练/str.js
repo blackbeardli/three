@@ -70,7 +70,7 @@ function hebin(arr,s){
     return str2;
 }
 var he = hebin(arr,"\\");
-//console.log(he);
+console.log(he);
 
 //字符串切割，分割
 function qiege(str,s) {
