@@ -3,6 +3,8 @@ var fs = require('fs'),
   url = require('url'),
   path = require('path'),
   http = require('http');
+const crypto = require('crypto');
+const hash = crypto.createHash('md5');
 //从命令行获取root目录，默认是当前目录
 var root = path.resolve('.'); //
 var server = http.createServer(function (request,response){
@@ -36,7 +38,23 @@ var server = http.createServer(function (request,response){
     request.on('data',function (data) {
       //console.log("计算、接受到数据");
       //console.log("服务接受到的数据是："+data+"/");
-      fs.appendFile('some.txt', data+"/", function (err) {
+        var datas = data + "/";
+        //console.log(array[i]);
+        var username = datas.substring(datas.indexOf("名")+2,datas.indexOf("电"));
+        var phone =datas.substring(datas.indexOf("话")+2,datas.indexOf("密"));
+        var pass = datas.substring(datas.indexOf("码")+2,datas.indexOf("邮"));
+        var email =datas.substring(datas.indexOf("箱")+2,datas.indexOf("日"));
+        var tar = datas.substring(datas.indexOf("期")+1);
+      // 可任意多次调用update():
+      //hash.update(pass);
+      //console.log(hash.digest('hex'));
+     // pass = hash.digest('hex');
+      var content = pass;
+      var secretKey = crypto.randomBytes(16).toString('hex');
+      pass = crypto.createHmac('sha1', secretKey).update(content).digest().toString('base64');
+      data = "姓名:"+username+"电话:"+phone+"密码:"+pass+"邮箱:"+email+"日期"+tar;
+      //console.log(data);
+      fs.appendFile('some.txt', data, function (err) {
         if (err) {
           console.log(err);
         }
