@@ -16,6 +16,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -24,6 +25,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,10 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ajaxsetup1.html">
-    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.serverform.js">
     <configuration name="3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -60,13 +59,16 @@
     <configuration name="jqgetform.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/jqgetform.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="serverform.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="serverform.js" working-dir="$PROJECT_DIR$/kh_http_file">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.serverform.js" />
         <item itemvalue="JavaScript Debug.ajaxsetup1.html" />
         <item itemvalue="JavaScript Debug.3.html" />
         <item itemvalue="JavaScript Debug.jqgetform.html" />
         <item itemvalue="JavaScript Debug.each.html" />
-        <item itemvalue="JavaScript Debug.1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -96,10 +98,30 @@
       <workItem from="1566006775139" duration="25611000" />
       <workItem from="1566093669449" duration="6269000" />
       <workItem from="1566126139633" duration="11509000" />
+      <workItem from="1566176763160" duration="32285000" />
+      <workItem from="1566264472233" duration="17899000" />
+      <workItem from="1566289013234" duration="9000" />
+      <workItem from="1566289039702" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/kh_http_file/serverform.js</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/kh_http_file/serverajax.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

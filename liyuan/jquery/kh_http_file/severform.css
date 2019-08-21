@@ -1,0 +1,42 @@
+.div1{
+ height: 200px;
+}
+#username{
+   margin: 10px;
+    text-align: center;
+}
+.form-group{
+    margin: 10px;
+}
+#button1{
+    float: right;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.div5{
+font-size: 18px;
+    margin: 20px;
+    border-bottom: 1px solid;
+
+}
+.div6{
+    height: 80px;
+    margin: 50px;
+    text-align: left;
+}
+.div7{
+    float: right;
+    margin: -20px;
+    padding-right: 30px;
+}
+.div8{
+    border: solid 1px ;
+    /*margin: 20px;*/
+    padding: 20px;
+    width: 600px;
+    /*margin: 0 auto;*/
+    margin:40px 350px 20px;
+    ;
+}

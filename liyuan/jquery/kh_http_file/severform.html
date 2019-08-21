@@ -4,14 +4,37 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="./jquery-3.4.1.js" ></script>
+    <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="//cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./severform.css">
+
 </head>
 <body>
-<!--<form action="http://localhost:8080/severform.html" id="form1" method="post">-->
+
+               <div class="div3"></div>
+
+<!--    <table class="table table-striped " id="ta1">-->
+<!--        <caption></caption>-->
+<!--    </table>-->
+
+      <div class="div1">
+<!--          姓名-->
     <input type="text" id="username" name="username1" placeholder="请输入姓名">
-    <input type="text" id="coment1" name="coment2" placeholder="请输入内容" >
-    <input type="button" id="button1" value="提交"/>
-<!--</form>-->
-<ul style="list-style: none"></ul>
+
+<!--          内容-->
+    <form role="form">
+        <div class="form-group">
+            <textarea class="form-control" id="coment1" rows="5" placeholder="分享您的看法"></textarea>
+        </div>
+    </form>
+      </div>
+
+<!--    提交-->
+    <button type="button" class="btn btn-primary"
+            data-toggle="button" id="button1"> 评论
+    </button>
+
 <script src="./serverajax.js"></script>
 </body>
 </html>
