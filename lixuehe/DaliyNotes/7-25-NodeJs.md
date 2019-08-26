@@ -150,7 +150,7 @@ var foo = require('other_module');
    1. ```
       'use strict';
       //读取一个text　文件的内容
-      var fs = require('fs');
+      var fs = require('fs');　
       //必须要传入编码格式：utf-8
       fs.readFile('sample.txt', 'utf-8', function (err, data) {
           if (err) {
