@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <title>示例002</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body>div {
+            margin-top: 6%;
+        }
+        div{
+            /* border: 1px solid red; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+
+
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top ">
+            <a class="navbar-brand" href="#">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">评论区</font>
+                </font>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="切换导航">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Home</font>
+                            </font><span class="sr-only">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">（当前）</font>
+                                </font>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Anything</font>
+                            </font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Featuer</font>
+                            </font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">关于</font>
+                            </font>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="搜索">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">搜索</font>
+                        </font>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <!-- 导航栏 -->
+
+        <!-- 主体 -->
+        <!-- 左侧图片区 -->
+        <div class="container row">
+            <div class=" col-7">
+                <div>
+                    <img src="big.png" alt="big_img" width="100%" height="100%">
+                </div>
+            </div>
+            <!-- 左侧图片区 -->
+
+            <!-- 右侧评论区 -->
+
+
+
+
+            <div class=" col-4 ">
+
+               
+                    <div class="card border-primary mb-3" >
+                        <div class="card-header">您怎么看?</div>
+                        <div class="card-body text-primary">
+                            <div class="test_area">
+                                    <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="发表评论:" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                              <button class="btn btn-outline-secondary" type="button" onclick="submit()">Go!</button>
+                                            </div>
+                                          </div>
+                            </div><!-- /.col-lg-6 -->
+                        </div>
+                    </div>
+                
+                <!-- <div  >
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div >
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div >
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div >
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div >
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div >
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div> -->
+
+            </div>
+        </div>
+
+        <!-- 右侧评论区 -->
+
+        <!-- 主体 -->
+    </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function submit(){
+    // console.log("dianjia   ")
+    var text=$("input.form-control[type='text']").val();
+    // console.log(text)
+    $.ajax("http://127.0.0.1:3001/",{
+        type:"GET",
+        // url:"http://127.0.0.1:3001/",
+        data:text,
+        dataType:"text",
+        success:function(data){
+            // alert("11111111")
+            location.reload(true);
+window.location.reload();
+        }
+    });    
+};
+</script>
+
+<script>
+$(function(){
+    $.ajax({
+        url:"http://127.0.0.1:3002/test.html",
+        type:"GET",
+        dataType:"html",
+        success:function(data){
+            var html_obj=$(data).wrap("<div class='card border-primary mb-3'></div>");
+            $("body > div > div > div.col-4>div:first-child").after(html_obj);}
+    });
+});
+
+</script>
+</html>
