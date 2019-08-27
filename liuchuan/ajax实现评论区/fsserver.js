@@ -27,10 +27,7 @@ var server = http.createServer((req, resp) => {
                 "Content-Type": 'text/html;charset=utf8'
             });
             fs.createReadStream(filepath).pipe(resp);
-            console.log("成功")
-            // resp.end();
-            // res.send("ABCD");
-            // resp.send("ABCD");
+            console.log("数据发送至页面")
 
         }
     });

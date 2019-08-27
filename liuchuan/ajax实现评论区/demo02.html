@@ -196,7 +196,7 @@ function submit(){
     // console.log("dianjia   ")
     var text=$("input.form-control[type='text']").val();
     // console.log(text)
-    $.ajax("http://127.0.0.1:3001/",{
+    $.ajax("http://127.0.0.1:3001/createPing",{
         type:"GET",
         // url:"http://127.0.0.1:3001/",
         data:text,
@@ -213,7 +213,7 @@ window.location.reload();
 <script>
 $(function(){
     $.ajax({
-        url:"http://127.0.0.1:3002/test.html",
+        url:"http://127.0.0.1:3001/test.html",
         type:"GET",
         dataType:"html",
         success:function(data){
