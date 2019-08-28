@@ -40,6 +40,9 @@
    t.js"></script>
    ```
 
+   - **react.min.js** - React 的核心库（引入的第一个）
+   - **react-dom.min.js** - 提供与 DOM 相关的功能（引入的第二个）
+
 2. 项目已有package.json文件，通过命令行安装：react 和 react-dom
 
    1. npm init -y 初始化npm 项目
@@ -60,10 +63,12 @@
 
    ​    create-react-app --version
 
-3. 创建React 应用了：
+3. 创建React 应用：
 
    ​    create-react-app hackernews
-   ​    cd hackernews
+   ​    cd hackernews：
+
+      npm start;  //使用create-react-app快速搭建React开发环境;
 
 4. 创建的应用中包含的内容有：
 
@@ -133,6 +138,16 @@
 
 ## JSX 简介
 
+React 使用 JSX 来替代常规的 JavaScript。
+
+JSX 是一个看起来很像 XML 的 JavaScript 语法扩展。
+
+我们不需要一定使用 JSX，但它有以下优点：
+
+- JSX 执行更快，因为它在编译为 JavaScript 代码后进行了优化。
+- 它是类型安全的，在编译过程中就能发现错误。
+- 使用 JSX 编写模板更加简单快速。
+
 打开之前创建的hackernews
 
 src/App.js文件
@@ -198,6 +213,8 @@ npm start
 
 ![1566827716362](/home/lixuehe/.config/Typora/typora-user-images/1566827716362.png)
 
+* jsx中不可以使用if else 语句，只可以使用
+
 ### 六.ES6 const 和 let
 
 **const声明的变量不能被重新复制或重新声明，不能被改变，可以使用他创建不可变数据结构。**
@@ -252,6 +269,3 @@ if (module.hot) {
 
 * 方便调试：更改代码后不会刷新页面，调试信息可以完整的保持在开发控制台中；
 * 保持应用状态：更改源代码后浏览器不会重新加载整个页面，而是保持刚才的应用状态，应用本身被重新加载，但页面不会被重新加载；
-
-
-
