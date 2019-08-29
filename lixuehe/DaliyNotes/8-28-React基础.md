@@ -117,5 +117,26 @@ export default App;
         }
     }
     ```
+  
+* 常用的方式：
+
+  ```
+  class ExplainBindingsComponent extends Component {
+  	constructor() {
+  		super();
+  		this.doSomething = this.doSomething.bind(this);
+  		this.doSomethingElse = this.doSomethingElse.bind(this);
+  	}
+  	doSomething() {
+  		// do something
+  	}
+  	doSomethingElse() {
+  		// do something else
+  	}
+  	...
+  }	
+  ```
+
+  
 
 
