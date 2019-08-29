@@ -1,10 +1,10 @@
 ## React基础
 
-### 组件内部状态
+### 一.组件内部状态
 
 组件内部状态也被称为局部状态,允许你保存、修改和删除存储在组件内部的属性。
 
-### ES6 对象初始化
+### 二.ES6 对象初始化
 
 * 过简写属性更加简洁地初始化对象;
 * 当对象中的属性名与变量名相同时,列表变量名和状态属性名称共享同一名称;
@@ -86,7 +86,7 @@ class App extends Component {
 export default App;
 ```
 
-### 绑定
+### 三.绑定
 
 * 绑定的重要性：类方法不会自动绑定 this到实例上，如上实例中如果不进行`this.onDissmiss=this.onDissmiss.bind(this);`绑定，那在点击按钮的时候，在开发调试控制台进行console.log(this)得到的是undefined，导致后续想要使用this.state时，this不会被检测到，所以我们需要进行绑定；
 
