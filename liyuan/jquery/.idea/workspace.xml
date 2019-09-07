@@ -15,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,6 +34,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kh_copy_mk" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -46,17 +51,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.serverform.js">
+  <component name="RunManager" selected="JavaScript Debug.mk.html">
     <configuration name="3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="ajaxsetup1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/ajaxsetup1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="each.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/each.html" useBuiltInWebServerPort="true">
+    <configuration name="jqgetform.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/jqgetform.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="jqgetform.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/jqgetform.html" useBuiltInWebServerPort="true">
+    <configuration name="mk.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery/kh_copy_mk/mk.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serverform.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="serverform.js" working-dir="$PROJECT_DIR$/kh_http_file">
@@ -64,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.mk.html" />
         <item itemvalue="Node.js.serverform.js" />
         <item itemvalue="JavaScript Debug.ajaxsetup1.html" />
         <item itemvalue="JavaScript Debug.3.html" />
         <item itemvalue="JavaScript Debug.jqgetform.html" />
-        <item itemvalue="JavaScript Debug.each.html" />
       </list>
     </recent_temporary>
   </component>
@@ -102,6 +107,20 @@
       <workItem from="1566264472233" duration="17899000" />
       <workItem from="1566289013234" duration="9000" />
       <workItem from="1566289039702" duration="97000" />
+      <workItem from="1566366716786" duration="255000" />
+      <workItem from="1566389298989" duration="6448000" />
+      <workItem from="1566437994909" duration="33685000" />
+      <workItem from="1566523912335" duration="4859000" />
+      <workItem from="1566538908683" duration="14648000" />
+      <workItem from="1566614558940" duration="9304000" />
+      <workItem from="1566702668160" duration="599000" />
+      <workItem from="1566779899384" duration="39655000" />
+      <workItem from="1566867825925" duration="32498000" />
+      <workItem from="1566953755057" duration="33529000" />
+      <workItem from="1567042062398" duration="22590000" />
+      <workItem from="1567094079711" duration="356000" />
+      <workItem from="1567127820296" duration="27767000" />
+      <workItem from="1567211888331" duration="8939000" />
     </task>
     <servers />
   </component>
@@ -120,6 +139,11 @@
           <url>file://$PROJECT_DIR$/kh_http_file/serverajax.js</url>
           <line>22</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/kh_copy_mk/js/mk.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

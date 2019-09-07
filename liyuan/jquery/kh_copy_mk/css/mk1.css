@@ -1,0 +1,248 @@
+.header .nav-item li a:hover {
+    color: #07111b !important;
+    text-decoration:none;
+}
+.search-warp .showhide-search:hover{
+    background: rgba(240, 20, 20, 0.4);
+}
+/*.search-warp .showhide-search .suggest-active{*/
+/*    border-bottom-color: red;*/
+/*}*/
+.header .page-container .login-area
+.header-unlogin .header-signin a:hover {
+    color: #f01414;
+    text-decoration: none;
+}
+.login-area .app-download > a:hover {
+    color: red !important;
+    text-decoration: none;
+}
+.app-download:hover .app-load-box {
+    display: block!important;
+    text-decoration: none;
+}
+/*.clear-cart:hover*/
+/*.go-link{*/
+/*    color: red;*/
+/*}*/
+.shop-cart .my-cart .more-box .show-box .text a:hover {
+    color: #4d555d;
+}
+.shop-cart .my-cart .more-box .go-cart:hover {
+    background-color: #f01414;
+}
+.app-load-btn:hover{
+    background:black!important;
+    text-decoration: none;
+}
+.shop-cart-icon span:hover {
+       color: red;
+    text-decoration: none !important;
+}
+.shop-cart:hover .my-cart{
+    display: block!important;
+}
+
+.item a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none !important;
+}
+.tag-box a:hover{
+    color: red !important;
+    text-decoration: none !important;
+}
+.course-card-container:hover
+.course-card-name{
+    color: red !important;
+}
+
+.course-card:hover{
+    text-decoration: none !important;
+}
+.path-banner a:hover{
+    text-decoration: none !important;
+}
+.path-banner > a:hover{
+    margin-top: -4px;
+}
+.course-card-container:hover .course-card-top .course-banner .img-up {
+    top: -10px;
+    left: 0px;
+    width: 216px;
+}
+.course-card-container:hover .course-card-top .course-banner .img-mid {
+    top: 0px;
+    left: 8px;
+    width: 200px;
+}
+.course-card-container:hover .course-card-top .course-banner .img-down {
+    top: 10px;
+    left: 16px;
+    width: 184px;
+}
+.course-card-container:hover .course-card-top .course-banner {
+    background-color: #fff;
+}
+.container-types .wonderful-list .item .topic-period .big-tit:hover {
+    color: #00B43C;
+}
+.container-types .wonderful-list .item a.green:hover {
+    color: #00B43C;
+}
+.container-types .wonderful-list .item .article-tit .big-tit:hover {
+    color: #008CC8;
+}
+.container-types .wonderful-list .item a.blue:hover {
+    color: #008CC8;
+}
+.container-types .wonderful-list .wenda-tit:hover {
+    color: #00B43C;
+}
+.container-types .star-list .other-list dd.purple:hover {
+    border: 2px solid #653ddd;
+}
+.container-types .star-list .other-list dd.blue:hover {
+    border: 2px solid #008cc8;
+}
+.footer-link a:hover{
+    color:black;
+    text-decoration: none;
+}
+.footer .footer-sns a:hover {
+    color: #B7BBBF;
+}
+.footer-sns-weixin:hover {
+    background-position: -52px -262px;
+}
+.footer-sns-weibo:hover {
+    background-position: 0 -262px;
+}
+.elevator-msg:hover
+span{
+    display: block;
+}
+.elevator .elevator-msg:hover
+i{
+    display: none;
+}
+.elevator a i:hover {
+    color: #14191e;
+}
+.elevator a i:hover {
+    color: #14191e;
+}
+.elevator a:hover{
+    text-decoration: none;
+}
+
+.elevator-dist:hover
+span{
+    display: block;
+}
+.elevator .elevator-dist:hover
+i{
+    display: none;
+}
+
+.elevator-faq:hover
+span{
+    display: block;
+}
+.elevator .elevator-faq:hover
+i{
+    display: none;
+}
+.elevator-app:hover
+span{
+    display: block;
+}
+.elevator .elevator-app:hover
+i{
+    display: none;
+}
+.elevator-weixin:hover
+span{
+    display: block;
+}
+.elevator .elevator-weixin:hover
+i{
+    display: none;
+}
+.elevator-top:hover
+span{
+    display: block;
+}
+.elevator .elevator-top:hover
+i{
+    display: none;
+}
+.elevator .elevator-app:hover .elevator-app-box {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    max-width: none;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.elevator .elevator-weixin:hover .elevator-weixin-box {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    max-width: none;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.g-banner .carousel-control-prev:hover{
+    color: #fff;
+    background: rgba(7, 17, 27, 0.6);
+}
+.g-banner .carousel-control-next:hover{
+    color: #fff;
+    background: rgba(7, 17, 27, 0.6);
+}
+.login-area a:hover{
+    text-decoration: none;
+}
+.elite-bg .types-title-more:hover {
+    color: #ffffff !important;
+}
+.container-types .lecturer-item:hover {
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.2);
+}
+.container-types .lecturer-item:hover .lecturer-uimg {
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+    transition: all .3s;
+}
+.container-types .lecturer-item:hover .lecturer-name, .container-types .lecturer-item:hover .lecturer-title {
+    opacity: 0;
+}
+.container-types .lecturer-item:hover .lecturer-p {
+    position: relative;
+    height: 168px;
+    top: -92px;
+    color: #07111B;
+    transition: all .3s;
+}
+.lecturer-list a:hover{
+    text-decoration: none;
+}
+.container-types .wonderful-list .item:hover {
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.1);
+}
+.shop-cart .my-cart .cart-wrap .clear-cart .go-link:hover {
+    color: #f01414;
+}
+
+.lecturer-container .slider-prev:hover, .lecturer-container .slider-next:hover {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(28, 31, 33, 0.1);
+}
